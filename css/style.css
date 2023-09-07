@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #6572ad;
+   min-height: 50px;
+   color: white;
+    
+}
+
+.picture img{
+   width: 100%;
+   height:100vh;
+}
+.about-us h2{
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+.about-us h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Libre Baskerville', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Slab', serif;
+color:#6572ad ;
+}
+.about-us p{
+    color: #36909a;
+}
+.row h1{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 50px;
+}
+.services{
+    background: #6572ad;
+    height: 50vh;
+    position: relative;
+   bottom: 20px;
+   display: flex;
+
+  
+}
+.services h2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   bottom: 60px;
+   position: relative;
+   left: 700px;
+   bottom:100px;
+   color: white;
+   
+ 
+}
+.services1{
+    gap: 100px;
+    margin: 0 auto;
+    color: white;
+}
+.services1 h3 ,.services1 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:200px;
+    right: 60px;
+    text-align: center;
+   
+    
+}
+.specialization {
+   text-align: center;
+   color: #6572ad;
+}
+.specialization-title1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #36909a;
+}
+.specialization-title1 h2,.specialization-title1 p{
+    display: flex;
+    
+    position: relative;
+    right: 500px;
+    top:70px;
+}
+.specialization-title2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #36909a;
+}
+.specialization-title2 h2,.specialization-title2 p{
+    display: flex;
+    
+    position: relative;
+    left: 15px;
+    top:25px;
+}
+.specialization-title3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #36909a;
+}
+.specialization-title3 h2,.specialization-title3 p{
+    display: flex;
+    
+    position: relative;
+    right:-500px;
+    top:-20px;
+}
+.our-teachers {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #6572ad;
+    color: white;
+    gap:100px;
+    height: 350px;
+}
+.our-teachers h1{
+    text-align: center;
+    position: relative;
+    bottom: 120px;
+    left: 580px;
+}
+
+
+.card img,.card-body p{
+    height: 150px;
+    position: relative;
+    top:100px;
+    right: 150px;
+    
+}
+.card-body p{
+    color: white;
+}
+.plans .container h1{
+    color:#6572ad;
+}
+
+
+.content-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-bottom:20px;
+    color: #6572ad;
+    text-decoration: none;
+}
+.box{
+    border: 1.5px solid black;
+}
+.box p{
+    border: 1.5px solid black;  
+}
+.contact-us{
+    background-color: #6572ad;
+    
+}
+.contact-us .row{
+   padding-top: 10px;
+}
+.contact-us .row h1{
+    color:white;
+    margin-top: 100px;
+   
+   
+}
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact-info h1{
+    color: #6572ad;
+}
+.contact-info ul{
+    margin-top: 20px;
+    color: #6572ad;
+}
